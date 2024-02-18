@@ -3085,8 +3085,11 @@ input, select, textarea {
 			letter-spacing: -0.025em;
 		}
 
+		/*CHECKPOINT !!!*/
+		/*THIS SHIT IS MAGICAL*/
+		/*CHANGE IT ACCORDINGLY FOR THE IMAGE IN THE BEGINNING*/
 		#header.alt {
-			padding: 7em 5em 4em 5em ;
+			padding: 0.1em 0.1em 0.1em 0.1em ;
 		}
 
 			#header.alt h1 {
@@ -3131,7 +3134,7 @@ input, select, textarea {
 			}
 
 				#header.alt {
-					padding: 6em 4em 3em 4em ;
+					padding: 4em 4em 3em 4em ;
 				}
 
 		}
@@ -3582,7 +3585,7 @@ input, select, textarea {
 
 		#main > .main {
 			padding: 5em 5em 3em 5em ;
-			border-top: solid 1px #dddddd;
+			border-top: solid 0px #dddddd; /*F BORDERS*/
 		}
 
 			#main > .main:first-child {
@@ -3647,7 +3650,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			#main > .main {
-				padding: 3em 1.5em 1em 1.5em ;
+				padding: 0.1em 1.5em 1em 1.5em ;
 			}
 
 				#main > .main > .image.main:first-child {
